@@ -1,0 +1,204 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-08 12:16:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-08 22:44:50
+*/
+/* 版心 */
+.car-layout {
+	min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+/* 背景图 */
+.car-layout .banner{
+	width: 100%;
+	height: 210px;
+  position: relative;
+  background: url(../images/friendcircle-banner.png) no-repeat;
+  background-size: 100%;
+}
+/* 名字 */
+.car-layout .banner .name {
+	color: #fff;
+	font-size: 16px;
+	text-shadow: 1px 1px rgba(0,0,0,.7);
+	position: absolute;
+	right: 78px;
+	bottom: 26px;
+
+}
+/* 头像 */
+.car-layout .banner .picture {
+	position: absolute;
+	bottom: 16px;
+	right: 16px;
+	width: 48px;
+	height: 48px;
+	border-radius: 4px;
+	border: 1px solid #fff;
+	background-image: url(../images/001.jpg);
+  background-size: 100%;
+}
+
+
+/* 评论区 */
+.car-layout .content .content-li {
+  padding: 16px;
+  margin-top: 0px;
+  border-bottom: 1px solid #ccc;
+}
+.content-li:first-child {
+  margin-top: 0;
+}
+.content-li,
+.content-li .media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+.content-li .media-body {
+  width: 10000px;
+}
+.content-li .media-object {
+  display: block;
+}
+.content-li .media-object.img-thumbnail {
+  max-width: none;
+}
+.content-li .media-right,
+.content-li > .pull-right {
+  padding-left: 10px;
+}
+.content-li .media-left,
+.content-li > .pull-left {
+  padding-right: 10px;
+}
+.content-li .media-left {
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 8px;
+  background-size: 100%;
+}
+/* 左侧头像区域 */
+.content-li .pic1 {
+  background-image: url(../images/狗.jpg);
+}
+
+.content-li .pic2 {
+  background-image: url(../images/001.jpg);
+}
+.content-li .media-right,
+.content-li .media-body {
+  display: table-cell;
+  vertical-align: top;
+
+ 
+}
+.content-li .media-middle {
+  vertical-align: middle;
+}
+.content-li .media-bottom {
+  vertical-align: bottom;
+}
+.content-li .media-heading {
+  margin-top: 2px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color:  #41454d;
+}
+
+.content-li .media-p {
+  margin-top: 2px;
+  font-size: 14px;
+  color: #41454d;
+}
+.content-li .media-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+
+/* 内容区域 */
+.content-li .comm {
+  margin-left: 48px;
+  margin-top: 8px;
+}
+/* 分享内容 */
+.content-li .share {
+  height: 52px;
+  width: 100%;
+  background-color: #f7f7f7;
+  line-height: 52px;
+
+}
+
+.content-li .share .share-image {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 6px;
+  background-image: url(../images/狗.jpg);
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.content-li .share .share-p {
+  font-size: 13px;
+  color: #41454d;
+  
+}
+/* 点赞以及评论*/
+.content-li .info {
+  margin: 12px 0;
+  font-size: 12px;
+  color: #80858c;
+  height: 17px;
+}
+
+.content-li .info i {
+  margin-right: 4px;
+  font-size: 17px;
+}
+
+.content-li .info span {
+  display: inline-block;
+  width: 50px;
+}
+
+/* 时间 */
+
+.content-li .time {
+  font-size: 12px;
+  color: #ACB1B7;
+  margin-bottom: 8px;
+}
+/* 评论列表 */
+.content-li .comment {
+  font-size: 14px;
+}
+
+.content-li .comment p{
+  color: #41454D;
+  margin-bottom: 4px;
+}
+.content-li .comment p a {
+  color: #5BAFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

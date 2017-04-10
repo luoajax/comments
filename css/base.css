@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color:transparent;
+}
+body{
+     color:#333;
+     font-family: "MicroSoft YaHei", sans-serif;
+     font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+a:hover{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+input{
+     border: none;
+     outline: none;
+     -webkit-appearance: none;
+}
+
+.f_left{
+     float: left;
+}
+.f_right{
+     float: right;
+}
+.m_left{
+     margin-left: 10px;
+}
+
+.clearbox {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
